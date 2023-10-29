@@ -1,0 +1,125 @@
+/* Common Styles */
+.cart-container {
+    background-color: #ccd7e7;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+/* Navigation */
+.nav {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center the content */
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+/* Cart Content */
+.cart-content {
+    margin-top: 20px;
+    background-image: url('https://media.istockphoto.com/id/1220260199/vector/wheelbarrow.jpg?s=612x612&w=0&k=20&c=eugCfR2UVEdD97Inp9oeg4y0xy1NvfxPUF1stKbAp5w='); /* Replace 'your-image-url.jpg' with the actual URL or path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333; /* Improved text readability */
+}
+
+.cart-content h1 {
+    font-size: 28px;
+    margin: 0 0 20px;
+    font-weight: 600;
+}
+
+.cart-item {
+    display: flex;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin: 15px 0;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.cart-item img {
+    width: 120px;
+    height: 180px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.cart-item h3 {
+    font-size: 24px;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.cart-item p {
+    font-size: 18px;
+    margin: 0 0 5px;
+    color: #555;
+}
+
+.remove-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-shadow: 0px 1px 1px #000;
+}
+
+.remove-button:hover {
+    background-color: #c0392b;
+}
+
+.checkout-button {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    text-shadow: 0px 1px 1px #000;
+}
+
+.checkout-button:hover {
+    background-color: #219653;
+}
+
+/* Footer */
+.footer {
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #19191a;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-list b {
+    font-weight: bold;
+    margin-right: 10px;
+}
